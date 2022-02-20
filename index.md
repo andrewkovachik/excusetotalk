@@ -1,3 +1,31 @@
+<head>
+        <meta charset="UTF-8">
+        <title>Green Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="green-audio-player.css">
+    <style>
+        html, body { height: 100%; }
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #F8FFAE;
+            background: -webkit-linear-gradient(-65deg, #43C6AC, #F8FFAE);
+            background: linear-gradient(-65deg, #43C6AC, #F8FFAE);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .ready-player-1, .ready-player-2, .ready-player-3, .ready-player-4 {
+            margin: 24px 0;
+        }
+    </style>
+</head>
+
+
 ## Excuse to Talk
 
 
@@ -6,16 +34,25 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
 
 ### Episode 1
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/css/green-audio-player.min.css">
-
-<script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js">
-</script>
-
-
-<div class="gap-example">
-    <audio>
-        <source src="edgarallenpoe.mp3" type="audio/mpeg">
+<div class="ready-player-1 player">
+    <audio crossorigin>
+        <source src="audio/example-1.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<div class="ready-player-2 player">
+    <audio crossorigin>
+        <source src="audio/example-2.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<div class="ready-player-3 player-with-download">
+    <audio crossorigin>
+        <source src="audio/example-2.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<div class="ready-player-4 player-with-accessibility">
+    <audio crossorigin>
+        <source src="audio/example-2.mp3" type="audio/mpeg">
     </audio>
 </div>
 
-new GreenAudioPlayer('.gap-example');
+<script src="green-audio-player.js"></script>
