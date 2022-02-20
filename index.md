@@ -1,6 +1,8 @@
 <head>
         <meta charset="UTF-8">
-        <title>Green Audio Player</title>
+        <title>
+                Green Audio Player
+        </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="green-audio-player.css">
     <style>
@@ -36,22 +38,22 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
 
 <div class="ready-player-1 player">
     <audio crossorigin>
-        <source src="audio/example-1.mp3" type="audio/mpeg">
+        <source src="edgarallenpoe.mp3" type="audio/mpeg">
     </audio>
 </div>
 <div class="ready-player-2 player">
     <audio crossorigin>
-        <source src="audio/example-2.mp3" type="audio/mpeg">
+        <source src="edgarallenpoe.mp3" type="audio/mpeg">
     </audio>
 </div>
 <div class="ready-player-3 player-with-download">
     <audio crossorigin>
-        <source src="audio/example-2.mp3" type="audio/mpeg">
+        <source src="edgarallenpoe.mp3" type="audio/mpeg">
     </audio>
 </div>
 <div class="ready-player-4 player-with-accessibility">
     <audio crossorigin>
-        <source src="audio/example-2.mp3" type="audio/mpeg">
+        <source src="edgarallenpoe.mp3" type="audio/mpeg">
     </audio>
 </div>
 
