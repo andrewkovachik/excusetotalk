@@ -1,8 +1,8 @@
 <head>
-        <meta charset="UTF-8">
-        <title>
-                Green Audio Player
-        </title>
+    <meta charset="UTF-8">
+    <title>
+        Green Audio Player
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="green-audio-player.css">
     <style>
