@@ -8,7 +8,8 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/css/green-audio-player.min.css">
 
-<script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js">
+</script>
 
 
 <div class="gap-example">
@@ -17,3 +18,4 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
     </audio>
 </div>
 
+new GreenAudioPlayer('.gap-example');
