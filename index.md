@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="green-audio-player.css">
     <style>
         html, body { height: 100%; }
-        .ready-player-1, .ready-player-2, .ready-player-3, .ready-player-4 {
+        .ready-player-raven {
             margin: 24px 0;
         }
     </style>
@@ -22,22 +22,9 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
 
 ### Episode 1
 
-<div class="ready-player-1 player">
-    <audio crossorigin>
-        <source src="edgarallenpoe.mp3" type="audio/mpeg">
-    </audio>
-</div>
-<div class="ready-player-2 player">
-    <audio crossorigin>
-        <source src="edgarallenpoe.mp3" type="audio/mpeg">
-    </audio>
-</div>
-<div class="ready-player-3 player-with-download">
-    <audio crossorigin>
-        <source src="edgarallenpoe.mp3" type="audio/mpeg">
-    </audio>
-</div>
-<div class="ready-player-4 player-with-accessibility">
+In an attempt to learn about recording audio and putting it on a website, Andrew recorded his friends while talking about a poem by Edgar Allen Poe, The Raven. As this was a trial to figure out all the different components of recording and uploading the audio quality was not perfect and on occassions maxed out the recorder.
+
+<div class="ready-player-raven player-with-download">
     <audio crossorigin>
         <source src="edgarallenpoe.mp3" type="audio/mpeg">
     </audio>
@@ -59,10 +46,5 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
             enableKeystrokes: true
         });
 
-        GreenAudioPlayer.init({
-            selector: '.player-with-accessibility',
-            stopOthersOnPlay: true,
-            enableKeystrokes: true
-        });
     });
 </script>
