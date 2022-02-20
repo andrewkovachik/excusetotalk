@@ -43,4 +43,26 @@ An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as 
     </audio>
 </div>
 
-<script src="green-audio-player.js"></script>
+<script src="green-audio-player.js">
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        GreenAudioPlayer.init({
+            selector: '.player',
+            stopOthersOnPlay: true
+        });
+
+        GreenAudioPlayer.init({
+            selector: '.player-with-download',
+            stopOthersOnPlay: true,
+            showDownloadButton: true,
+            enableKeystrokes: true
+        });
+
+        GreenAudioPlayer.init({
+            selector: '.player-with-accessibility',
+            stopOthersOnPlay: true,
+            enableKeystrokes: true
+        });
+    });
+</script>
