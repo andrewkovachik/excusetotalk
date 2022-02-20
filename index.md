@@ -20,7 +20,7 @@
 ## What is an Excuse to Talk
 An excuse to talk is ran by two friends, Andrew and Jared, and exists purely as a reason for them to have conversations. Feel free to listen along to their random ramblings.
 
-### Episode 1
+### Episode 0
 
 In an attempt to learn about recording audio and putting it on a website, Andrew recorded his friends while talking about a poem by Edgar Allen Poe, The Raven. As this was a trial to figure out all the different components of recording and uploading the audio quality was not perfect and on occassions maxed out the recorder.
 
